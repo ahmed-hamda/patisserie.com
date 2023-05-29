@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../feuille_css/style.css" />
+        <link rel="icon" href="../multimedia/ic.png">
+    </head>
+
+    <body >
+        <div id="head">
+            <table>
+                <tr ></tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td></td>
+                    <td id="lign"><a href="index.html"><img src="../multimedia/ic.png" alt="ic" style="width: 70px;"></a></td>
+                        <td id="lign">
+                            <div class="dropdown">
+                                <button class="dropbtn"><a href="les%20ingredients.html"><h3>Les recettes & les ingredients</h3></a></button>
+                                <div class="dropdown-content">
+                                    <a href="les%20ingredients.html#t">tourte-fraises</a>
+                                    <a href="les%20ingredients.html#f">flan-coco</a>
+                                    <a href="les%20ingredients.html#ta">tarte-citron</a>
+                                    <a href="les%20ingredients.html#y">yaourt</a>
+                                    <a href="les%20ingredients.html#app">apple-pie</a>
+                                    <a href="les%20ingredients.html#ch">Cheesecake</a>
+                                    <a href="les%20ingredients.html#bro">brownies</a>
+                                    <a href="les%20ingredients.html#ti">tiramisu</a>
+                                    <a href="les%20ingredients.html#sac">sacher</a>
+                                </div>
+                              </div>
+                            </td>
+                        <td id="lign">
+                            <div class="dropdown">
+                                <button class="dropbtn"><a href="les%20recettes%20vds.html"><h3 >Les recettes en video</h3></a></button>
+                                <div class="dropdown-content">
+                                    <a href="les%20recettes%20vds.html#tr">tourte-fraises</a>
+                                    <a href="les%20recettes%20vds.html#fl">flan-coco</a>
+                                    <a href="les%20recettes%20vds.html#tar">tarte-citron</a>
+                                    <a href="les%20recettes%20vds.html#ya">yaourt</a>
+                                    <a href="les%20recettes%20vds.html#appl">apple-pie</a>
+                                    <a href="les%20recettes%20vds.html#che">Cheesecake</a>
+                                    <a href="les%20recettes%20vds.html#bros">brownies</a>
+                                    <a href="les%20recettes%20vds.html#tir">tiramisu</a>
+                                    <a href="les%20recettes%20vds.html#sach">sacher</a>
+                                </div>
+                              </div>
+                            </td>
+                        <td id="lign"><a href="contact.html"><h3>Contact</h3></a></td>
+                        <td id="lign"><a href="avis.html"><h3>Vos Avis</h3></a></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr></tr>
+            </table>
+        </div>
+        
+        
+            <center><p  style="font-size: 50px;"> Formulaire D'inscription</p></center>
+        <form>
+            <div class="fie">
+                <center><h2>Inscription</h2></center>
+                <hr style="width: 95%;color: rgb(184, 184, 184);">
+            
+                <table>
+                    <tr>
+                        <td id="tdl"><label for="n">Nom </label></td>
+                        <td><input style="font-size: 30px;" type="text" id="n" size="10" required><br /></td>
+                    </tr>
+                    <tr>
+                        <td id="tdl"><label for="p">Prénom </label></td>
+                        <td><input type="text" id="p" size="10" style="font-size: 30px;" required><br /></td>
+                    </tr>
+
+                    <tr>
+                        <td id="tdl"><label for="v">Ville</label></td>
+                        <td><select name="ville" id="v "required>
+                            <option value="tunis">Tunis</option>
+                            <option value="sousse">Sousse</option>
+                            <option value="sfax">Sfax</option>
+                            <option value="gabes">Gabes</option>
+                        </select><br></td>
+                    </tr>
+                
+                    <tr>
+                        <td id="tdl"><label for="ad" >Address</label></td>
+                        <td><textarea name="add" id="ad"  cols="22" rows="3" required> route de Tunis cité el ons</textarea><br></td>
+                    </tr>    
+                    
+
+                    <tr>
+                        <td id="tdl"><label for="tel">Telephone</label></td>
+                        <td><input type="tel" name="tele" id="tel" pattern="[0-9]{8}" title="8 chiffres"  style="font-size: 30px;" required><br></td>
+                    </tr>
+                    
+                    <tr>
+                        <td id="tdl"><label for="em">Email</label></td>
+                        <td><input type="email" name="email" id="em" style="font-size: 30px;" required><br></td>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+
+                    <tr>
+                        <td id="tdl"><label for="or">Type du gâteau</label></td>
+                        <td><select name="type" id="or" required>
+                            <option value="Tourte-Fraises">Tourte-Fraises</option>
+                            <option value="Flan-Coco">Flan-Coco</option>
+                            <option value="tarte au citron">Tarte-Citron</option>
+                            <option value="Yaourt">Yaourt</option>
+                            <option value="Apple-Pie">Apple-Pie</option>
+                            <option value="Cheesecake">Cheesecake</option>
+                            <option value="Brownies">Brownies</option>
+                            <option value="Tiramisu">Tiramisu</option>
+                            <option value="Sacher">Sacher</option>
+                            
+                        </select><br></td>
+                    </tr>
+                    <tr>
+                        <td id="tdl"><label for="quant">Quantité</label></td>
+                        <td><input style="font-size: 30px;" type="number" required/></td>
+                    </tr>
+
+                    <tr>
+                        <td id="tdl"><label for="img">Ajouter une photo du gâteau</label></td>
+                        <td><input type="file" name="image" id="img" accept="image/png, image/jpeg"><br></td>
+                    </tr>
+                    
+                    <tr>
+                        <td id="tdl"><label for="msg">Ajouter un message</label></td>
+                        <td><textarea name="msge" id="msg" cols="22" rows="2">Joyeux anniversaire</textarea></td>
+                    </tr>
+                    <tr>
+                        <td id="tdl"></td>
+                        <td ><input style="color:rgb(204, 202, 202) ;background: #000;" type="submit"  value="Envoyer" >
+                            <input style="color:rgb(204, 202, 202) ;background: #000;" type="reset" value="Annuler" ></td>
+                    </tr>
+                    <tr></tr>
+                    
+                </table>
+        </form>
+    </div>
+    <br><br>
+        <footer style="background-color: #000;">
+            <br>
+            <div style="display: flex;justify-content: center;">
+            <a href="https://www.facebook.com/"><img style="width: 90px;" src="../multimedia/f1c.png" alt="retour" ></a>
+            <a href="https://www.instagram.com/"  ><img style="width: 90px;" src="../multimedia/in.png" alt="retour" ></a>
+            <a href="https://twitter.com/?lang=fr"  ><img style="width: 90px;" src="../multimedia/tt.png" alt="retour" ></a>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <a href="#" ><img style="width: 70px"; src="../multimedia/rc.png" alt="retour" ></a></div>
+        </footer><br>
+
+    </body>
+</html>
